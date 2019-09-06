@@ -1,0 +1,45 @@
+<div id="diceWidget" class="widget">
+	<p>Number of dice<br>
+		<input type="number" id="numberDiceWidget" value="1" min="1" step="1">
+	</p>
+	
+	<p>Type of dice:<br>
+		<!-- <select id="diceTypeWidget">
+			<option value="2" selected>2</option>
+			<option value="4">4</option>
+			<option value="6">6</option>
+			<option value="8">8</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+			<option value="20">20</option>
+			<option value="100">100</option>
+		</select> -->
+		<table id="diceTypeWidget" style="width:100%">
+			<tr>
+			  <th>Type of dices</th>
+			  <th>Number</th>
+			</tr>
+			<tr>
+			  <td>Jill</td>
+			  <td>Smith</td>
+			  <td>50</td>
+			</tr>
+			<tr>
+			  <td>Eve</td>
+			  <td>Jackson</td>
+			  <td>94</td>
+			</tr>
+		  </table>
+	</p>
+
+	<p>Add value to result<br>
+		<input type="number" id="addToResult" value="0">
+	</p>
+
+	<label for="showAllrollsWidget">Display all rolls? 
+	<input type="checkbox" id="showAllrollsWidget"></label><br>
+
+	<button type="button" id="rollDiceWidget">Roll</button>
+	<p>Result: <span id="diceResultWidget"></span> 
+	<span id="allRollsWidget"></span></p>
+</div>
